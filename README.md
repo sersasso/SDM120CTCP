@@ -12,14 +12,7 @@ To install
 To uninstall
   make uninstall
 
+on /etc/hosts add an entry to point to ew11. eg.:
 <PRE>
-# SDM120C
-SDM120CTCP ModBus TCP client to read EASTRON SDM120C smart mini power meter registers
-
-It works with SDM120 and SDM220 models
-
-It depends on libmodbus (http://libmodbus.org)
-
-To compile and install
-  make clean && make install
-</PRE>
+  192.168.1.100 ew11
+<PRE/>
