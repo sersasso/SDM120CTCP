@@ -28,5 +28,6 @@ To use it please see the following example:
   </PRE>
 the command layout is similar to the original sdm120c but we use /dev/dummy at the end to make use of the locking logic.
 the bitrate needs to be specified even if that parameted will be set into the server section of the ew11. Same for all serial settings
-
-  
+# EW11 basic Settings
+![SerialPortSetting](SerialPortSetting.png)
+![CommunicationSettings](CommunicationSettings.png)
